@@ -14,11 +14,9 @@ const Footer = () => {
 
         </div>
         <ul className="footer-links">
-            <li>Company</li>
-            <li>Products</li>
-            <li>Offices</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/offices">Offices</a></li>
+            <li><a href="/contact">Contact</a></li>
 
         </ul>
         <div className="footer-social-icon">

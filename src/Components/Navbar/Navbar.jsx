@@ -33,7 +33,7 @@ const Navbar = () => {
             <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}}to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("stationary")}}><Link style={{textDecoration:'none'}}to='/stationary'>Stationary</Link>{menu==="stationary"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("kitchenware")}}><Link style={{textDecoration:'none'}}to='/kitchenware'>Kitchenware</Link>{menu==="kitchenware"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("hardware")}}><Link style={{textDecoration:'none'}}to='/hardware'>Promotion</Link>{menu==="hardware"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("promotion")}}><Link style={{textDecoration:'none'}}to='/promotion'>Promotion</Link>{menu==="promotion"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             {localStorage.getItem('auth-token')

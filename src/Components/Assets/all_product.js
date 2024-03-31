@@ -50,7 +50,7 @@ let all_product = [
     {
         id: 1,
         name: "1000L water tank",
-        category: "hardware",
+        category: "promotion",
         image: p1_img,
         new_price: 200000,
         old_price: 300000
@@ -58,7 +58,7 @@ let all_product = [
     {
         id: 2,
         name: "2000L water tank",
-        category: "hardware",
+        category: "promotion",
         image: p2_img,
         new_price: 400000,
         old_price: 500000
@@ -66,7 +66,7 @@ let all_product = [
     {
         id: 3,
         name: "Plies",
-        category: "hardware",
+        category: "promotion",
         image: p3_img,
         new_price: 400000,
         old_price: 500000
@@ -74,7 +74,7 @@ let all_product = [
     {
         id: 4,
         name: "Drill",
-        category: "hardware",
+        category: "promotion",
         image: p4_img,
         new_price: 400000,
         old_price: 500000
@@ -82,7 +82,7 @@ let all_product = [
     {
         id: 5,
         name: "Spanner",
-        category: "hardware",
+        category: "promotion",
         image: p5_img,
         new_price: 400000,
         old_price: 500000
